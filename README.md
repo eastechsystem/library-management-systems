@@ -1,27 +1,30 @@
-# Library Management System Task using Spring-Boot + REST + hibernate
-1.Rest API
-2.Transaction Management
-3.Hibernate
-4.Logging
+# Library Management System Task using Spring-Boot + REST + Hibernate
+1.	Rest API
+2.	Transaction Management
+3.	Hibernate
+4.	Logging
 
 # Pre Requesting 
  
-1.JDK 1.8
-2.IDE (eclipse or Netbeans)
-3.Maven
-4.apache tomcat 8+
-5.MySql server
-6.REST client (eg. Postman )
+1.	JDK 1.8
+2.	IDE (eclipse or Netbeans)
+3.	Maven
+4.	apache tomcat 8+
+5.	MySql server
+6.	REST client (eg. Postman )
 
 # How  project works.
 
-Step 1: open project form any Spring pluging enable IDE 
-Step 2: change databse configurate at application context file
-Step 3: create schema and tables, database statements are mentioned into this file "db-tables-create-statements.sql" 
-Step 4:run spring boot application via command line or form IDE, on command line run the following command
-mvn spring-boot:run
+Step 1: 	open project form any Spring pluging enable IDE.
 
-If run from IDE then  run spring main file under packge com.librarymanagementsystem
+Step 2: 	change databse configurate at application context file.
+
+Step 3: 	create schema and tables, database statements are mentioned into this file "db-tables-create-statements.sql".
+
+Step 4:		run spring boot application via command line or form IDE, on command line run the following command.
+mvn spring-boot:run
+If run from IDE then  run spring main file under packge com.librarymanagementsystem.
+
 Step 5: change logging configuration according to local machine's file path.
 
 # CRUP operations for Users Entity, can perform from postman as follows
