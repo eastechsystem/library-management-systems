@@ -23,7 +23,7 @@ mvn spring-boot:run
 If run from IDE then  run spring main file under packge com.librarymanagementsystem
 Step4: change logging configuration according to local machine's file path.
 
-# CRUP operations for Users Entity, can perform by postman
+# CRUP operations for Users Entity, can perform from postman as follows
 
 Api url: http://localhost:8080/api/v1.0/users
 1. Opertaion: create-users/add-user
@@ -48,7 +48,7 @@ Api url: http://localhost:8080/api/v1.0/users
 	- Endpoint: http://localhost:8080/api/v1.0/users/{identifier}
 	- Requesting Parameter of identifier as numerical number, i.e. http://localhost:8080/api/v1.0/users/2
 	
-# CRUP operations for Categories Entity, can perform by postman
+# CRUP operations for Categories Entity, can perform from postman as follows
 
 Api url: http://localhost:8080/api/v1.0/categories
 1. Opertaion: create-categories/add-categories
@@ -73,7 +73,7 @@ Api url: http://localhost:8080/api/v1.0/categories
 	- Endpoint: http://localhost:8080/api/v1.0/categories/{identifier}
 	- Requesting Parameter of identifier as numerical number, i.e. http://localhost:8080/api/v1.0/categories/2
 	
-# CRUP operations for Books Entity, can perform by postman
+# CRUP operations for Books Entity, can perform from postman as follows
 
 Api url: http://localhost:8080/api/v1.0/books
 1. Opertaion: create-books/add-books
